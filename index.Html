@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transportes Franco</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Transportes Franco</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#catalog">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div>
+            <h1>Equipo de Construcción y Maquinaria Pesada</h1>
+            <p>Ofrecemos las mejores soluciones para tus proyectos de construcción.</p>
+            <a href="#catalog" class="btn btn-primary btn-lg">Ver Catálogo</a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Sobre Nosotros</h2>
+            <p>Somos una empresa dedicada a la venta, alquiler y mantenimiento de equipos de construcción y maquinaria pesada. Con años de experiencia, garantizamos calidad y compromiso en cada proyecto.</p>
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section id="catalog" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Nuestro Catálogo</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="catalog-item">
+                        <img src="C:\CURSO CSS3 Y HTML5\pagina\images\F-1.jpg" alt="Excavadora">
+                        <h5 class="mt-2">Excavadora</h5>
+                        <p>Ideal para proyectos de excavación en grandes terrenos.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="catalog-item">
+                        <img src="C:\CURSO CSS3 Y HTML5\pagina\images\F-4.jpg" alt="Bulldozer">
+                        <h5 class="mt-2">Bulldozer</h5>
+                        <p>La mejor opción para nivelar terrenos con precisión.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="catalog-item">
+                        <img src="C:\CURSO CSS3 Y HTML5\pagina\images\F-2.jpg" alt="Retroexcavadora">
+                        <h5 class="mt-2">Retroexcavadora</h5>
+                        <p>Versatilidad y potencia para cualquier tipo de obra.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contáctanos</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Transportes Franco. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
